@@ -26,6 +26,15 @@
     },
     "python.formatting.provider": "yapf",
     "[json]": {
-	    "editor.formatOnSave": false
-    }
+        "editor.formatOnSave": false
+    },
+    "customLocalFormatters.formatters": [
+        {
+            "command": "clang-format | keymap-format",
+            "languages": [
+                "c"
+            ]
+        }
+    ],
+    "C_Cpp.errorSquiggles": "Disabled"
 }

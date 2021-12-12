@@ -17,6 +17,7 @@
 #pragma once
 
 #define MASTER_RIGHT
+#define ONESHOT_TIMEOUT 300
 
 #ifdef OLED_DRIVER_ENABLE
 #    define OLED_DISPLAY_128X64

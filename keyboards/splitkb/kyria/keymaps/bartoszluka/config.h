@@ -18,6 +18,7 @@
 
 #define MASTER_RIGHT
 #define ONESHOT_TIMEOUT 300
+#define COMBO_TERM 30
 
 #ifdef OLED_DRIVER_ENABLE
 #    define OLED_DISPLAY_128X64
